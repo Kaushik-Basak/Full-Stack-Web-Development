@@ -1,0 +1,27 @@
+.container{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 450px;
+    display: grid;
+    grid-template-columns:  50px 1fr, 1fr ,150 px;
+    grid-template-rows: 40px 1fr 40px;
+    gap: 4px;
+}
+
+.box{
+    background-color: red;
+    border: 2px solid black;
+}
+
+#box1, #box4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+

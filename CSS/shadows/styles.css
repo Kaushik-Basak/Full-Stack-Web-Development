@@ -1,0 +1,18 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red, 5px 5px 5px blue;
+}
+
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    
+    /* Horizontal    Vertical     Blur     Spread Radius */
+    box-shadow: 10px 10px 15px 20px  blue, 10px 10px 15px red;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.832);
+    
+    /* color: red;
+    box-shadow: -10px -10px 15px blue, -10px -10px 15px red; */
+
+}

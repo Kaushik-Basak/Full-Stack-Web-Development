@@ -1,0 +1,76 @@
+/* p{
+    position: static;
+} */
+
+
+/* Relative Position */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.box{
+    position: relative;
+    left: 50px;
+    top: 100px;
+} */
+
+/* Another relative position */
+
+/* div{
+    height: 150px;
+    width: 150px;
+    background-color:aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+#box3{
+    position: relative;
+    top: 100px;
+    left: 70px;
+} */
+
+
+/* Fixed position */
+
+/* .mydiv #box1{
+    position: fixed;
+} */
+
+/* Absolute Position */
+div{
+    height: 150px;
+    width: 150px;
+    background-color:aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+#box3{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+
+/* #box2{
+    position: relative;
+    left: 50px;
+
+} */
+
+#box4{
+    position: sticky;
+    top: 0px;
+}
+.mydiv{
+    height: 2000px;
+    width: 100vw;
+    background-color: yellow;
+}
