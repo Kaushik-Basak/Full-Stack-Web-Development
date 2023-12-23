@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid brown;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+    display: grid;
+    /* Hw difference between grid and inline grid */
+    /* Hw Complex Grid Layouts */
+    /* hw Nesting and overelapping of grid items*/
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    border: 1px solid black;
+    background-color: aqua;
+}

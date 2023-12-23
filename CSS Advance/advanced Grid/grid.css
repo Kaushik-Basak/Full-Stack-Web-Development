@@ -1,0 +1,18 @@
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    gap: 10px;
+    /* Grid auto columns HW */
+    grid-auto-rows: minmax(100px, auto); /* this is for our content is minimum row 100px and max is auto*/
+    /* grid-auto-columns: minmax(auto); */
+    grid-template-columns: repeat(4,1fr);
+}
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+
+}
+
